@@ -1,6 +1,6 @@
 # Quick-CV
 
-![Quick-CV](https://www.google.com/url?sa=i&url=https%3A%2F%2Fzety.com%2Fblog%2Fplain-text-resume-example&psig=AOvVaw2UfHj3syvJXWp0p7Q8a1bS&ust=1705850103672000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDm1v-g7IMDFQAAAAAdAAAAABAD)
+(https://cdn-images.zety.com/pages/plain_text_resume_example_template_nanica.png)
 
 ## Description
 
