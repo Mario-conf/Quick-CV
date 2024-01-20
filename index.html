@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <title>Quick-CV</title>
+</head>
+<body>
+    <header>
+        <h1>Quick-CV</h1>
+        <p id="instrucciones">Completa el formulario a continuación:</p>
+    </header>
+
+    <main>
+      <form id="formularioDatosPersonales" class="cv-form">
+        <h2>Datos Personales</h2>
+    
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text" id="nacionalidad" name="nacionalidad" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="permisoConducir">Permiso de Conducir:</label>
+            <select id="permisoConducir" name="permisoConducir" required>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+    </form>
+    
+
+        <form id="formularioDescripcionPersonal" class="cv-form">
+            <h2>Descripción Personal</h2>
+            <div class="form-group">
+                <label for="descripcionPersonal">Descripción Personal:</label>
+                <textarea id="descripcionPersonal" name="descripcionPersonal" rows="4" required></textarea>
+            </div>
+        </form>
+
+        <form id="formularioExperiencia" class="cv-form">
+            <h2>Experiencia Profesional</h2>
+            <!-- Campos de experiencia profesional -->
+            <div class="form-group">
+                <label for="experiencia">Experiencia:</label>
+                <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+            </div>
+            <!-- Puedes repetir este bloque para cada experiencia laboral -->
+        </form>
+
+        <form id="formularioEducacion" class="cv-form">
+            <h2>Educación</h2>
+            <!-- Campos de educación -->
+            <div class="form-group">
+                <label for="educacion">Educación:</label>
+                <textarea id="educacion" name="educacion" rows="4" required></textarea>
+            </div>
+            <!-- Puedes repetir este bloque para cada logro educativo -->
+        </form>
+
+        <form id="formularioIdiomas" class="cv-form">
+            <h2>Idiomas</h2>
+            <!-- Campos de idiomas -->
+            <div class="form-group">
+                <label for="idiomas">Idiomas:</label>
+                <textarea id="idiomas" name="idiomas" rows="4" required></textarea>
+            </div>
+            <!-- Puedes repetir este bloque para cada idioma que desees agregar -->
+        </form>
+
+        <form id="formularioActitudes" class="cv-form">
+            <h2>Actitudes</h2>
+            <div class="form-group">
+                <label for="actitudes">Actitudes:</label>
+                <textarea id="actitudes" name="actitudes" rows="4" required></textarea>
+            </div>
+        </form>
+
+        <form id="formularioAptitudes" class="cv-form">
+            <h2>Aptitudes</h2>
+            <div class="form-group">
+                <label for="aptitudes">Aptitudes:</label>
+                <textarea id="aptitudes" name="aptitudes" rows="4" required></textarea>
+            </div>
+        </form>
+
+        <form id="formularioHabilidadesComplementarias" class="cv-form">
+            <h2>Habilidades Complementarias</h2>
+            <div class="form-group">
+                <label for="habilidadesComplementarias">Habilidades Complementarias:</label>
+                <textarea id="habilidadesComplementarias" name="habilidadesComplementarias" rows="4" required></textarea>
+            </div>
+        </form>
+
+        <div id="visualizacionCV">
+            <h2>CV Generado</h2>
+            <!-- Aquí se mostrará el CV generado dinámicamente -->
+        </div>
+    </main>
+
+    <footer>
+        <button id="generarBtn">Generar CV</button>
+        <button id="descargarBtn">Descargar CV</button>
+        <br>
+        <div class="footer">
+          <p>Developed by</p><a href="https://github.com/Mario-conf" target="_blank"> Mario.conf</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
