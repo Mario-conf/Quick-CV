@@ -1,5 +1,3 @@
-Gracias por proporcionar la URL directa de la imagen. A continuación, te presento un README en inglés y español para la aplicación Quick-CV:
-
 ## Quick-CV
 
 ---
