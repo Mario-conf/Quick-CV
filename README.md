@@ -1,32 +1,33 @@
-# Quick-CV
+Gracias por proporcionar la URL directa de la imagen. A continuación, te presento un README en inglés y español para la aplicación Quick-CV:
 
-(https://cdn-images.zety.com/pages/plain_text_resume_example_template_nanica.png)
+## Quick-CV
 
-## Description
+---
 
-Quick-CV is a simple web application that allows users to generate and download their CVs. It provides an easy-to-use form where users can input their personal information, education, experience, and more. The generated CV can be downloaded as a text file for convenience.
+![Quick-CV](https://cdn-images.zety.com/pages/plain_text_resume_example_template_nanica.png)
 
-## How to Use
+### Description
+
+Quick-CV is a simple web application for creating and downloading resumes. Built using HTML, CSS, and JavaScript, it provides an easy-to-use interface to input personal and professional information and generates a downloadable resume in plain text format.
+
+### How to Use
 
 1. Open the `index.html` file in your preferred web browser.
-2. Complete the required fields in each section of the form.
-3. Click the "Generate CV" button to dynamically generate your CV.
-4. Review the generated CV on the screen.
-5. Optionally, click the "Download CV" button to save the CV.
+2. Fill in the various forms with your personal and professional details.
+3. Click the "Generate CV" button to dynamically create your resume.
+4. After generating, click the "Download CV" button to download the resume in a plain text file.
 
-**Note:** The CV will be downloaded as a text file (.txt). To maintain the format, open the downloaded file in a text editor or word processor.
+### Features
 
-## Features
-
-- **User-Friendly Interface:** Easily navigate and fill out the CV form.
+- **User-Friendly Interface:** Simple forms for entering personal information, education, experience, and skills.
   
-- **Dynamic CV Generation:** Instantly see the changes as you fill out the form.
+- **Dynamic CV Generation:** Instantly generates a preview of the resume based on the entered information.
 
-- **Downloadable Text File:** Download your generated CV as a text file for easy sharing and further formatting.
+- **Downloadable CV:** Allows users to download the generated resume in plain text format.
 
-## How to Contribute
+### How to Contribute
 
-If you want to contribute to the development of Quick-CV, follow these steps:
+If you'd like to contribute to the development of Quick-CV, follow these steps:
 
 1. Fork the repository.
 2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/quick-cv.git`
@@ -34,46 +35,46 @@ If you want to contribute to the development of Quick-CV, follow these steps:
 4. Make your modifications and commit: `git commit -m "Add new features"`
 5. Push your changes: `git push origin your-branch`
 6. Open a Pull Request on GitHub.
-
+---
 We welcome your contributions! Also, follow me on my social media to support this project and others through this link:  https://linktr.ee/mario.conf
 
 ---
 
-# Quick-CV
+## Quick-CV 
 
-![Quick-CV](https://www.google.com/url?sa=i&url=https%3A%2F%2Fzety.com%2Fblog%2Fplain-text-resume-example&psig=AOvVaw2UfHj3syvJXWp0p7Q8a1bS&ust=1705850103672000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDm1v-g7IMDFQAAAAAdAAAAABAD)
+---
 
-## Descripción
+![Quick-CV](https://cdn-images.zety.com/pages/plain_text_resume_example_template_nanica.png)
 
-Quick-CV es una aplicación web simple que permite a los usuarios generar y descargar sus currículos. Proporciona un formulario fácil de usar donde los usuarios pueden ingresar su información personal, educación, experiencia y más. El currículo generado se puede descargar como un archivo de texto para mayor comodidad.
+### Descripción
 
-## Cómo Usar
+Quick-CV es una sencilla aplicación web para crear y descargar currículos. Construida con HTML, CSS y JavaScript, proporciona una interfaz fácil de usar para ingresar información personal y profesional, generando un currículo descargable en formato de texto plano.
+
+### Cómo Usar
 
 1. Abre el archivo `index.html` en tu navegador web preferido.
-2. Completa los campos requeridos en cada sección del formulario.
-3. Haz clic en el botón "Generar CV" para generar dinámicamente tu currículo.
-4. Revisa el currículo generado en la pantalla.
-5. Opcionalmente, haz clic en el botón "Descargar CV" para guardar el currículo.
+2. Completa los diversos formularios con tus detalles personales y profesionales.
+3. Haz clic en el botón "Generar CV" para crear dinámicamente tu currículo.
+4. Después de generarlo, haz clic en "Descargar CV" para descargar el currículo en un archivo de texto plano.
 
-**Nota:** El currículo se descargará como un archivo de texto (.txt). Para mantener el formato, abre el archivo descargado en un editor de texto o procesador de texto.
+### Características
 
-## Características
-
-- **Interfaz Amigable:** Navega y completa fácilmente el formulario del currículo.
+- **Interfaz Fácil de Usar:** Formularios simples para ingresar información personal, educación, experiencia y habilidades.
   
-- **Generación Dinámica de CV:** Ve instantáneamente los cambios mientras completas el formulario.
+- **Generación Dinámica de CV:** Genera instantáneamente una vista previa del currículo basada en la información ingresada.
 
-- **Archivo de Texto Descargable:** Descarga tu currículo generado como un archivo de texto para compartirlo fácilmente y darle formato adicional.
+- **CV Descargable:** Permite a los usuarios descargar el currículo generado en formato de texto plano.
 
-## Cómo Contribuir
+### Cómo Contribuir
 
 Si deseas contribuir al desarrollo de Quick-CV, sigue estos pasos:
 
 1. Haz un fork del repositorio.
-2. Clona tu fork: `git clone https://github.com/TU_NOMBRE_DE_USUARIO/quick-cv.git`
+2. Clona tu fork: `git clone https://github.com/TU_USUARIO/quick-cv.git`
 3. Crea una rama para tus cambios: `git checkout -b tu-rama`
 4. Realiza tus modificaciones y haz commit: `git commit -m "Agregar nuevas funciones"`
 5. Sube tus cambios: `git push origin tu-rama`
 6. Abre un Pull Request en GitHub.
-
+---
 Agradecemos tus contribuciones. Además, sígueme en mis redes sociales para apoyar este proyecto y otros a través de este enlace: https://linktr.ee/mario.conf
+---
